@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if (lte IE 7)]><!--><html lang="en" class="ie"> <!--<![endif]-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PyWM &bull; Python West Midlands</title>
+	<meta name="description" content="The Official Python West Midlands User Group">
+	<meta name="author" content="The PyWM group // Design by Blanc">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="stylesheet" href="media/css/pywm.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="media/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="media/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="media/img/apple-touch-icon-114x114.png">
+</head>
+<body onload="prettyPrint()">
+
+<section id="page">
+    <header>
+        <h1><a href="/"><strong>Python</strong> <em>West Midlands</em></a></h1>
+    </header> 
+      
+    <nav>
+        <h2>Hello</h2>
+        <p>Welcome to PyWM the West Midlands Python User Group. We run monthly social and technical meetings, from which we post articles you can read here. The best way to get involved is to join the mailing list and say hi.</p>
+        <ul>
+            <li><h3><a href="http://www.python.org/">Python.org</a> (Official Python Site)</h3></li>
+            <li><h3><a href="https://mailman.lug.org.uk/mailman/listinfo/pywm">Mailing List</a></h3></li>
+            <li><h3><a href="http://www.google.com/calendar/ical/techevent@gmail.com/public/basic">iCal Feed</a></h3></li>
+        </ul>
+        
+        <aside>
+            <h2>Upcoming Events</h2>
+            <small>Various tech events in the Midlands</small>
+            <div id="events"></div>
+			<h3><a href="http://www.google.com/calendar/embed?src=techevent%40gmail.com">View more</a></h3>
+        </aside>
+    </nav>
+    
+    <article id="content">
+        <h2>Article title here</h2>
+        <h3>Aligning elements in responsive layouts can be difficult with all the percentage values flying around. GGS comes with Golden Gridlet, a little script that adds a button into the upper right corner of the page. When clicked or tapped, it overlays the GGS grid and a baseline grid of 1.5em onto the page, making it easy to visually check that design elements align up.</h3>
+        <p>Golden Gridlet should work in most modern browsers, and since it doesn't rely on a keyboard, it can be used on touch screen devices as well. In modern browsers, the overlay appears with a pleasing CSS3 transition. Give it a try by clicking or tapping the icon in the upper right corner of this page. It's pretty fun.</p>
+        <p>(Please note that due to rounding errors the baseline grid guides might not align up properly if the baseline grid is zoomed in or out.)</p>
+        <pre><code class="prettyprint lang-python">import cherrypy
+class HelloWorld(object):
+    def index(self):
+        return "Hello World!"
+    index.exposed = True
+
+cherrypy.quickstart(HelloWorld())</code></pre>
+        
+        <h2>Article title here</h2>
+        <small>Date goes here</small>
+        <h3>Aligning elements in responsive layouts can be difficult with all the percentage values flying around. GGS comes with Golden Gridlet, a little script that adds a button into the upper right corner of the page. When clicked or tapped, it overlays the GGS grid and a baseline grid of 1.5em onto the page, making it easy to visually check that design elements align up.</h3>
+        <p>Golden Gridlet should work in most modern browsers, and since it doesn't rely on a keyboard, it can be used on touch screen devices as well. In modern browsers, the overlay appears with a pleasing CSS3 transition. Give it a try by clicking or tapping the icon in the upper right corner of this page. It's pretty fun.</p>
+        <p>(Please note that due to rounding errors the baseline grid guides might not align up properly if the baseline grid is zoomed in or out.)</p>
+    </article>
+</section>
+<footer>
+    Most things here are open source. If you want you use anything just shout on the mailing list.
+</footer>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="media/js/prettify.js"></script>
+<script type="text/javascript" src="media/js/pywm.js"></script>
+</body>
+</html>
