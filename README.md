@@ -3,11 +3,13 @@ Python User Group template
 
 After getting tired too tired and then going to PyWM.. Steve made the silly suggestion
 that we could develop a new site in an hour. This repo is what was produced. The brief:
+
 * Have some intro text
 * Show when then next event is
 * Link to the mailing list
 * Have a mechanism for recording what happened at each event
 * Design to be related to PyWM
+
 <http://pywm.eu/>
 
 
